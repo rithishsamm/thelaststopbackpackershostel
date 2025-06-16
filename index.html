@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple and easy to edit Bed and Breakfast site template">
+    <meta name="author" content="Ansonika">
+    <title>The Last Stop Backpackers Hostel</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/fav-icon.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+        href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+        href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.min.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Add Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="120" data-bs-target="#mainNav">
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div>
+    <!-- /Page Preload -->
+
+    <header class="fixed_header menu_v1">
+        <div class="layer"></div>
+        <!-- Opacity Mask -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-5" id="logo-header">
+                    <a href="index.html" class="logo_normal"><img src="img/main-header-logo-white.svg" width="300"
+                            height="40" alt="" class="img-fluid"></a>
+                    <a href="index.html" class="logo_sticky"><img src="img/main-header-logo-black.svg" width="300"
+                            height="40" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-9 col-7">
+                    <div class="main-menu">
+                        <a href="#" class="closebt open_close_menu"><i class="bi bi-x"></i></a>
+                        <div class="logo_panel"><img src="img/logo_sticky.svg" width="180" height="34" alt=""></div>
+                        <nav id="mainNav">
+                            <ul>
+                                <li><a href="#" class="js-scroll-trigger animated_link">Home</a></li>
+                                <li><a href="#about" class="js-scroll-trigger animated_link">About</a></li>
+                                <li><a href="#rooms" class="js-scroll-trigger animated_link">Rooms</a></li>
+                                <li><a href="#amenities" class="js-scroll-trigger animated_link">Amenities</a></li>
+                                <li><a href="gallery.html" target="_blank" class="js-scroll-trigger animated_link">Gallery</a></li>
+                                <!-- <li><a href="#contacts" class="js-scroll-trigger animated_link">Contacts</a></li> -->
+
+                                <li><a href="#booking_section" class="js-scroll-trigger btn_1">Contact us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="hamburger_2 open_close_menu float-end">
+                        <div class="hamburger__box">
+                            <div class="hamburger__inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </header>
+    <!-- End Header -->
+
+    <main>
+
+        <div class="hero full-height jarallax" data-jarallax-video="webm:./video/laststoppromowebm.webm"
+            data-speed="0.2">
+            <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
+                data-opacity-mask="rgba(0, 0, 0, 0.6)">
+                <div class="container">
+                    <small class="slide-animated one">Experience a comfy and crazy stay</small>
+                    <h3 class="slide-animated two">@TheLastStopbackpackershostel :)<br></h3>
+                    <div class="container">
+                        <a href="#booking_section" class="btn_1 slide-animated four">Book Now</a>
+                    </div>
+                    <!-- <figure class="slide-animated three mt-3">
+        <img src="img/Airbnb_Logo.svg" alt="" class="img-fluid me-2" width="113" height="35">
+        <img src="img/TripAdvisor_Logo_white.svg" alt="" class="img-fluid ms-2" width="165" height="35">
+      </figure> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg_white" id="about">
+            <div class="container margin_120_95">
+                <div class="last-stop-img">
+                    <!-- <img src="media/The-Last-Stop-Backpacker-tiitle1.png" alt=""> -->
+                    <h2>About</h2>
+                </div>
+                <div class="row justify-content-between flex-lg-row-reverse align-items-center">
+                    <div class="col-lg-5">
+                        <div class="parallax_wrapper">
+                            <img src="img/about-big.png" alt="" class="img-fluid rounded-img">
+                            <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img
+                                        src="img/about-small.png" alt="" class="rounded-img"></span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="intro">
+                            <div class="title">
+                                <small>About us</small>
+                                <h2>Makes your self at home and enjoy a unique experience</h2>
+                            </div>
+                            <p class="lead">Discover the ultimate Backpackers haven at The Last Stop Backpackers Hostel,
+                                an anime themed hostel in Auroville. Our vibrant and communal space welcomes wanderers
+                                around the world. With comfortable accommodations, lively common areas and a perfect
+                                blend of tranquility and adventure, This is your ideal stop at Auroville.</p>
+                            <p>Connect with fellow travellers, immerse yourself in the unique spirit of Auroville and
+                                make your journey memorable at Last Stop Backpackers Hostel. Book your stay today!.</p>
+                            <p><em>-- Mickey</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /Row -->
+                <hr class="less_margin">
+
+
+
+
+                <!-- -----------------------------------------------------------------------/stock input starts-----------------------------------------------------------------------/ -->
+
+
+                <!-- Rooms section starts -->
+
+                <div class="rooms-wrapper">
+                    <div class="rooms scroll-slider">
+                    </div>
+                </div>
+                <section id="rooms">
+                    <h2 class="heading">Rooms</h2>
+                    <div class="rooms">
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Dorm</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>5+</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">AC Private Dorm </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Room</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>3+</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">AC Private Room </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Hut</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>5</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Keeth Hut </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Dorm</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>5</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Mixed AC Dorm </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Dorm</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>5+</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Non-AC Private Dorm</span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Room</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>3+</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Non-AC Private Room </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Dorm</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>5</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Mixed Non-AC Dorm</span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div>
+                            <h3>₹499</h3>
+                            <p> / per night per person </p>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/rooms.png" alt="Room 1">
+                            <div class="card-dorm-icon dorm">
+                                <span>Room</span>
+                                <div style="display: flex; align-items: center; column-gap: 5px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                    </svg>
+                                    <span>3+</span>
+                                </div>
+                            </div>
+                            <div class="card-dorm-icon">
+                                <span class="card-para-weight">Flexibe Private Room </span>
+                                <div>
+                                    <span class="card-para-weight">M/F</span>
+                                </div>
+                            </div class="container">
+                            <a href="tel:+918678991919" class="btn_1 enquiry">Enquire</a>
+                        </div>
+
+                    </div>
+            </div>
+            </section>
+
+            <!-- -----------------------------------------------------------------------/stock input ends-----------------------------------------------------------------------/ -->
+
+
+
+            <!-- -----------------------------------------------------------------------/rithish input starts-----------------------------------------------------------------------/ -->
+            <section class="amenities">
+                <div class="row mt-4">
+                    <!-- <h3 class="amenties-heading">Amenities</h3> -->
+                     <h2 class="heading">Amenities</h2>
+                    <div class="slider">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <!-- <i class="icon-hotel-parking"></i> -->
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#2a7a1f" d="M12 21q-1.05 0-1.775-.725T9.5 18.5t.725-1.775T12 16t1.775.725t.725 1.775t-.725 1.775T12 21m-5.65-5.65l-2.1-2.15q1.475-1.475 3.463-2.337T12 10t4.288.875t3.462 2.375l-2.1 2.1q-1.1-1.1-2.55-1.725T12 13t-3.1.625t-2.55 1.725M2.1 11.1L0 9q2.3-2.35 5.375-3.675T12 4t6.625 1.325T24 9l-2.1 2.1q-1.925-1.925-4.462-3.012T12 7T6.563 8.088T2.1 11.1"/></svg>
+                                <h3 class="amenties-heading">Private Parking</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <!-- <i class="icon-hotel-disable"></i> -->
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 448 512">
+                                            <path fill="#2a7a1f" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48M240 320h-48v48c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h96c52.9 0 96 43.1 96 96s-43.1 96-96 96m0-128h-48v64h48c17.6 0 32-14.4 32-32s-14.4-32-32-32"></path>
+                                        </svg>
+                                <h3 class="amenties-heading">Accessible</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <!-- <i class="icon-hotel-dog"></i> -->
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                                            <path fill="#2a7a1f" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 3c2.339 0 3.508 0 4.362.536a3.5 3.5 0 0 1 1.102 1.102C22 5.492 22 6.66 22 9s0 3.508-.537 4.362a3.5 3.5 0 0 1-1.1 1.101C19.507 15 18.338 15 16 15H8c-2.339 0-3.508 0-4.362-.537a3.5 3.5 0 0 1-1.102-1.1C2 12.507 2 11.338 2 9s0-3.508.536-4.362a3.5 3.5 0 0 1 1.102-1.102C4.492 3 5.66 3 8 3zm-9 9h10m1-5h.009M6.8 18s.8 1.875-.8 3m11.2-3s-.8 1.875.8 3m-6-3v3" color="#fff"></path>
+                                        </svg>
+                                <h3 class="amenties-heading">Pet Friendly</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-patio"></i>
+                                <h3>Patio Garden</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-parking"></i>
+                                <h3>Private Parking</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-disable"></i>
+                                <h3>Accessible</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-dog"></i>
+                                <h3>Per Friendly</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-patio"></i>
+                                <h3>Patio Garden</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-parking"></i>
+                                <h3>Private Parking</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-disable"></i>
+                                <h3>Accessible</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -----------------------------------------------------------------------/rithish input ends-----------------------------------------------------------------------/ -->
+
+            <!-- /Row -->
+        </div>
+        </div>
+        
+
+
+
+        <!-- /container-->
+
+        <div class="marquee">
+            <div class="track">
+                <div class="content">&nbsp;● Indoor/Outdoor Games  
+                ● DIY Workshops  
+                ● Bonfire  
+                ● Movie Night  
+                ● DJ Night  
+                ● Barbecue Night  
+                ● Open Air Theatre  
+                ● Open Mic / Karaoke  
+                ● Auroville Tour
+                ● Walking Tours  
+                ● Canyon Walk  
+                ● Night Walk  
+                ● Forest Tour  
+                ● Temple Tour  
+                ● Bird Watching  
+                ● Sunrise Sightseeing  
+                ● Mangrove Safari  
+                ● Traditional Events  
+                ● Recreational Events
+                ● Inner Events  
+                ● Exclusive Events  
+                ● and more social events</div>
+            </div>
+        </div>
+        <!-- /marquee-->
+
+        <!-- <div class="bg_white">
+            <div class="pinned-image pinned-image--medium">
+                <div class="pinned-image__container">
+                    <img src="img/parallax_bg.jpg" alt="">
+                    <div class="pinned-image__container-overlay"></div>
+                </div>
+                <div class="pinned_over_content">
+                    <div class="title white">
+                        <small data-cue="slideInUp" data-delay="200">Luxury Hotel Experience</small>
+                        <h2 data-cue="slideInUp" data-delay="300">Enjoy in a very<br> Immersive Relax</h2>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- /bg_white-->
+
+
+        <div class="container margin_120" id="gallery">
+            <div class="row">
+                <div class="title col-12 text-center mb-5">
+                    <small data-cue="slideInUp">EXPERIENCE A COMFY AND CRAZY STAY</small>
+                    <h2 data-cue="slideInUp" data-delay="100">Gallery</h2>
+                </div>
+            </div>
+            <div data-cues="zoomIn">
+                <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img">
+                    <div class="item">
+                        <img src="media/1600x1000/keeth4.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="media/dorm1.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="media/keeth1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <!-- <a target="_blank" data-fslightbox="gallery_1" data-type="image" href="/gallery.html" class="btn_1 outline">
+                    FullScreen Gallery
+                </a> -->
+                <a target="_blank" href="/gallery.html" class="btn_1 outline">
+                    FullScreen Gallery
+                </a>
+                <!-- <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/2.jpg"></a>
+                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/3.jpg"></a>
+                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/4.jpg"></a>
+                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/5.jpg"></a> -->
+            </div>
+        </div>
+
+        </div>
+        </div>
+        <!-- /row-->
+        </div>
+        <!-- /container-->
+        </div>
+        <!-- /bg_white -->
+
+         <section id="rooms">
+            <h4 class="heading">Check us in</h4>
+            <div class="container">
+                <img src="media/booking/booking.com.svg" alt="" class="img-fluid margin" a href="https://www.booking.com/hotel/in/the-last-stop-backpackers-hostel.en-gb.html" target="_blank">
+                <img src="media/booking/agoda.svg" alt="" class="img-fluid" a href="https://www.agoda.com/en-in/the-last-stop-backpackers-hostel/hotel/pondicherry-in.html" target="_blank">
+                <img src="media/booking/emt.svg" alt="" class="img-fluid" href="https://www.easemytrip.com/hotels/the-last-stop-backpackers-hostel-4410778/" target="_blank">
+                <img src="media/booking/hostelworld.svg" alt="" class="img-fluid" a href="https://www.hostelworld.com/hostels/p/326115/the-last-stop-backpackers-hostel/" target="_blank"> 
+                <img src="media/booking/trivago.svg" alt="" class="img-fluid" a href="https://www.trivago.in/en-IN/oar/the-last-stop-backpackers-hostel-puducherry?search=100-36501930" target="_blank">
+                <img src="media/booking/priceline.svg" alt="" class="img-fluid" a href="https://www.priceline.com/hotel/the-last-stop-backpackers-hostel-pondicherry" target="_blank">
+                <!-- <img src="media/booking/bluepillow.svg" alt=""> -->
+            </div>
+        </section>
+
+
+
+        <div class="container margin_120_95" id="contacts">
+            <div class="row justify-content-between">
+                <div class="col-xl-4">
+                    <div data-cue="slideInUp">
+                        <div class="title">
+                            <small>EXPERIENCE A COMFY AND CRAZY STAY</small>
+                            <h2>Address</h2>
+                        </div>
+                        <p>No: 20, Auroville Road, Kuilapalayam, <br> Bommayapalayam, (Near Ganapathy Pottery), TN 605101</p>
+                        <div class="phone_element no_borders"><a href="tel://8678991919"><i
+                                    class="bi bi-telephone"></i><span><em>Bookings</em>+91 8678991919</span></a></div>
+                        <div class="phone_element no_borders"><a href="mailto:thelaststopbackpackershostel@gmail.com"><i
+                                    class="bi bi-envelope"></i><span><em>Questions</em>thelaststopbackpackershostel@gmail.com</span></a></div>
+                        <div class="social mt-1">
+                            <ul>
+                                <li><a href="https://www.instagram.com/thelaststopbackpackershostel/"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="tel://8678991919"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="#https://www.facebook.com/61555702082946/about/"><i class="bi bi-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7" id="booking_section">
+                    <ul class="nav nav-tabs" id="customTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="first_tab" data-bs-toggle="tab"
+                                data-bs-target="#first_tab_pane" type="button" role="tab" aria-controls="first_tab_pane"
+                                aria-selected="true">Check Availability</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="second_tab" data-bs-toggle="tab"
+                                data-bs-target="#second_tab_pane" type="button" role="tab"
+                                aria-controls="second_tab_pane" aria-selected="false">Contact Us</button>
+                        </li>
+                    </ul>
+                    <!-- /tabs -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="first_tab_pane" role="tabpanel"
+                            aria-labelledby="first_tab" tabindex="0">
+                            <div class="booking_wrapper">
+                                <div id="message-booking"></div>
+                                <form method="post" action="phpmailer/reserve_template_email.php" id="bookingform"
+                                    autocomplete="off">
+                                    <input type="hidden" id="date_booking" name="date_booking">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="custom_select">
+                                                <select class="wide" name="rooms_booking" id="rooms_booking">
+                                                    <option value="">Select Room</option>
+                                                    <option value="Double Room">Dorm</option>
+                                                    <option value="Deluxe Room">Room</option>
+                                                    <option value="Superior Room">Keeth</option>
+                                                    <option value="Junior Suite">Suite</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="qty-buttons mb-3 version_2">
+                                                        <input type="button" value="+" class="qtyplus"
+                                                            name="adults_booking">
+                                                        <input type="text" name="adults_booking" id="adults_booking"
+                                                            value="" class="qty form-control" placeholder="Adults">
+                                                        <input type="button" value="-" class="qtyminus"
+                                                            name="adults_booking">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="mb-3 qty-buttons mb-3 version_2">
+                                                        <input type="button" value="+" class="qtyplus"
+                                                            name="childs_booking">
+                                                        <input type="text" name="childs_booking" id="childs_booking"
+                                                            value="" class="qty form-control" placeholder="Childs">
+                                                        <input type="button" value="-" class="qtyminus"
+                                                            name="childs_booking">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- / row -->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name_booking" id="name_booking"
+                                                    class="form-control" placeholder="Name and Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" name="email_booking" id="email_booking"
+                                                    class="form-control" placeholder="Email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- / row -->
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto">
+                                                    <label for="verify_booking" class="col-form-label"><strong>Are you
+                                                            human?</strong></label>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <input type="text" name="verify_booking" id="verify_booking"
+                                                        class="form-control" placeholder="3 + 1 = ?">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <p class="text-end"><input class="btn_1 outline" type="submit"
+                                                    value="Check Now" id="submit-booking"></p>
+                                        </div>
+                                    </div>
+                                    <!-- / row -->
+                                </form>
+                            </div>
+                            <!-- / booking_wrapper -->
+                        </div>
+                        <!-- /tab_booking-->
+                        <div class="tab-pane fade" id="second_tab_pane" role="tabpanel" aria-labelledby="second_tab"
+                            tabindex="0">
+                            <div class="contacts_wrapper">
+                                <div id="message-contact"></div>
+                                <form method="post" action="phpmailer/contact_template_email.php" id="contactform"
+                                    autocomplete="off">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating mb-4">
+                                                <input class="form-control" type="text" id="name_contact"
+                                                    name="name_contact" placeholder="Name">
+                                                <label for="name_contact">Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating mb-4">
+                                                <input class="form-control" type="text" id="lastname_contact"
+                                                    name="lastname_contact" placeholder="Last Name">
+                                                <label for="lastname_contact">Last name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /row -->
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating mb-4">
+                                                <input class="form-control" type="email" id="email_contact"
+                                                    name="email_contact" placeholder="Email">
+                                                <label for="email_contact">Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating mb-4">
+                                                <input class="form-control" type="text" id="phone_contact"
+                                                    name="phone_contact" placeholder="Telephone">
+                                                <label for="phone_contact">Telephone</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /row -->
+                                    <div class="form-floating mb-4">
+                                        <textarea class="form-control" placeholder="Message" id="message_contact"
+                                            name="message_contact"></textarea>
+                                        <label for="message_contact">Message</label>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto">
+                                                    <label for="verify_booking" class="col-form-label"><strong>Are you
+                                                            human?</strong></label>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <input type="text" name="verify_contact" id="verify_contact"
+                                                        class="form-control" placeholder="3 + 1 = ?">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <p class="text-end"><input class="btn_1 outline" type="submit"
+                                                    value="Submit" id="submit-contact"></p>
+                                        </div>
+                                    </div>
+                                    <!-- / row -->
+                                </form>
+                            </div>
+                            <!-- /tab_contacts-->
+                        </div>
+                        <!-- /contacts_wrapper-->
+                    </div>
+                    <!-- /tab_content-->
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </main>
+
+    <div class="map_contact">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4802.219841471623!2d79.8208673!3d11.991347600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5367c6836e4ddf%3A0x42791f2004db927e!2sThe%20Last%20Stop%20Backpackers%20Hostel!5e1!3m2!1sen!2sin!4v1749844819011!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--/map_contact -->
+    <div class="copy">
+        <div class="container">
+            © The Last Stop Backpackers Hostel - Made with ❤️ by <a href="dedede.io">dedede</a>
+        </div>
+    </div>
+    <!--/copyright line -->
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/common_functions.js"></script>
+    <script src="js/datepicker_inline.js"></script>
+    <script src="phpmailer/validate.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Add Slick Slider JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Initialize Slick Slider -->
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
