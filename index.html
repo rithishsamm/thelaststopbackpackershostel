@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Simple and easy to edit Bed and Breakfast site template">
-    <meta name="author" content="Ansonika">
+    <meta name="description" content="Last stop backpackers hostel">
+    <meta name="author" content="dedede">
     <title>The Last Stop Backpackers Hostel</title>
 
     <!-- Favicons-->
@@ -41,6 +41,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+
 
 </head>
 
@@ -72,7 +80,8 @@
                                 <li><a href="#about" class="js-scroll-trigger animated_link">About</a></li>
                                 <li><a href="#rooms" class="js-scroll-trigger animated_link">Rooms</a></li>
                                 <li><a href="#amenities" class="js-scroll-trigger animated_link">Amenities</a></li>
-                                <li><a href="gallery.html" target="_blank" class="js-scroll-trigger animated_link">Gallery</a></li>
+                                <li><a href="gallery.html" target="_blank"
+                                        class="js-scroll-trigger animated_link">Gallery</a></li>
                                 <!-- <li><a href="#contacts" class="js-scroll-trigger animated_link">Contacts</a></li> -->
 
                                 <li><a href="#booking_section" class="js-scroll-trigger btn_1">Contact us</a></li>
@@ -152,332 +161,400 @@
                 <!-- -----------------------------------------------------------------------/stock input starts-----------------------------------------------------------------------/ -->
 
 
-                <!-- Rooms section starts -->
-
-                <div class="rooms-wrapper">
-                    <div class="rooms scroll-slider">
-                    </div>
-                </div>
-                <section id="rooms">
+                <!-- card carousel strats -->
+                <section class="card-carousel">
                     <h2 class="heading">Rooms</h2>
-                    <div class="rooms">
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Dorm</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>5+</span>
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Dorm</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>5+</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">AC Private Dorm </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">AC Private Dorm </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
 
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Room</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>3+</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Room</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>3+</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">AC Private Room </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">AC Private Room </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
 
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Hut</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>5</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Hut</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>5</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Keeth Hut </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Keeth Hut </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
-
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Dorm</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>5</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Dorm</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>5</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Mixed AC Dorm </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Mixed AC Dorm </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
-
-
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Dorm</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>5+</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Dorm</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>5+</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Non-AC Private Dorm</span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Non-AC Private Dorm</span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
-
-
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Room</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>3+</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Room</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>3+</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Non-AC Private Room </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Non-AC Private Room </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
-
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Dorm</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>5</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Dorm</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>5</span>
+                                    </div>
+                                </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Mixed Non-AC Dorm</span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div>
+                                <div class="card-price">
+                                    <h3>₹499</h3>
+                                    <p> / per night per person </p>
                                 </div>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Mixed Non-AC Dorm</span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div>
-                            <h3>₹499</h3>
-                            <p> / per night per person </p>
                         </div>
-
-                        <div class="card">
-                            <img src="img/rooms.png" alt="Room 1">
-                            <div class="card-dorm-icon dorm">
-                                <span>Room</span>
-                                <div style="display: flex; align-items: center; column-gap: 5px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
-                                    </svg>
-                                    <span>3+</span>
+                        <div class="item">
+                            <div class="card">
+                                <img src="img/rooms.png" alt="Room 1">
+                                <div class="card-dorm-icon dorm">
+                                    <span>Room</span>
+                                    <div style="display: flex; align-items: center; column-gap: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                                        </svg>
+                                        <span>3+</span>
+                                    </div>
                                 </div>
+                                <div class="card-dorm-icon">
+                                    <span class="card-para-weight">Flexibe Private Room </span>
+                                    <div>
+                                        <span class="card-para-weight">M/F</span>
+                                    </div>
+                                </div class="container">
+                                <a href="tel:+918678991919" class="btn_1 enquiry">Enquire</a>
                             </div>
-                            <div class="card-dorm-icon">
-                                <span class="card-para-weight">Flexibe Private Room </span>
-                                <div>
-                                    <span class="card-para-weight">M/F</span>
-                                </div>
-                            </div class="container">
-                            <a href="tel:+918678991919" class="btn_1 enquiry">Enquire</a>
-                        </div>
 
+                        </div>
                     </div>
             </div>
             </section>
 
-            <!-- -----------------------------------------------------------------------/stock input ends-----------------------------------------------------------------------/ -->
+            <!-- /Row -->
+        </div>
+        </div>
 
+        
 
+        <!-- /card carousel ends-->
 
-            <!-- -----------------------------------------------------------------------/rithish input starts-----------------------------------------------------------------------/ -->
-            <section class="amenities">
+        <div class="marquee">
+            <div class="track">
+                <div class="content">&nbsp;● Indoor/Outdoor Games
+                    ● DIY Workshops
+                    ● Bonfire
+                    ● Movie Night
+                    ● DJ Night
+                    ● Barbecue Night
+                    ● Open Air Theatre
+                    ● Open Mic / Karaoke
+                    ● Auroville Tour
+                    ● Walking Tours
+                    ● Canyon Walk
+                    ● Night Walk
+                    ● Forest Tour
+                    ● Temple Tour
+                    ● Bird Watching
+                    ● Sunrise Sightseeing
+                    ● Mangrove Safari
+                    ● Traditional Events
+                    ● Recreational Events
+                    ● Inner Events
+                    ● Exclusive Events
+                    ● and more social events</div>
+            </div>
+        </div>
+        <!-- /marquee-->
+
+        
+        <!--<section class="amenities">
                 <div class="row mt-4">
-                    <!-- <h3 class="amenties-heading">Amenities</h3> -->
+                    <h3 class="amenties-heading">Amenities</h3>
                      <h2 class="heading">Amenities</h2>
-                    <div class="slider">
-                        <div class="col-lg-3 col-md-6">
+                    <div class="slider slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 11661px; transform: translate3d(-1521px, 0px, 0px);"><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
-                                <!-- <i class="icon-hotel-parking"></i> -->
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#2a7a1f" d="M12 21q-1.05 0-1.775-.725T9.5 18.5t.725-1.775T12 16t1.775.725t.725 1.775t-.725 1.775T12 21m-5.65-5.65l-2.1-2.15q1.475-1.475 3.463-2.337T12 10t4.288.875t3.462 2.375l-2.1 2.1q-1.1-1.1-2.55-1.725T12 13t-3.1.625t-2.55 1.725M2.1 11.1L0 9q2.3-2.35 5.375-3.675T12 4t6.625 1.325T24 9l-2.1 2.1q-1.925-1.925-4.462-3.012T12 7T6.563 8.088T2.1 11.1"/></svg>
+                                <i class="icon-hotel-patio"></i>
+                                <h3>Patio Garden</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-parking"></i>
+                                <h3>Private Parking</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                <i class="icon-hotel-disable"></i>
+                                <h3>Accessible</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#2a7a1f" d="M12 21q-1.05 0-1.775-.725T9.5 18.5t.725-1.775T12 16t1.775.725t.725 1.775t-.725 1.775T12 21m-5.65-5.65l-2.1-2.15q1.475-1.475 3.463-2.337T12 10t4.288.875t3.462 2.375l-2.1 2.1q-1.1-1.1-2.55-1.725T12 13t-3.1.625t-2.55 1.725M2.1 11.1L0 9q2.3-2.35 5.375-3.675T12 4t6.625 1.325T24 9l-2.1 2.1q-1.925-1.925-4.462-3.012T12 7T6.563 8.088T2.1 11.1"></path></svg>
                                 <h3 class="amenties-heading">Private Parking</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="box_facilities no-border" data-cue="slideInUp">
-                                <!-- <i class="icon-hotel-disable"></i> -->
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 448 512">
                                             <path fill="#2a7a1f" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48M240 320h-48v48c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h96c52.9 0 96 43.1 96 96s-43.1 96-96 96m0-128h-48v64h48c17.6 0 32-14.4 32-32s-14.4-32-32-32"></path>
                                         </svg>
                                 <h3 class="amenties-heading">Accessible</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="box_facilities no-border" data-cue="slideInUp">
-                                <!-- <i class="icon-hotel-dog"></i> -->
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
                                             <path fill="#2a7a1f" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 3c2.339 0 3.508 0 4.362.536a3.5 3.5 0 0 1 1.102 1.102C22 5.492 22 6.66 22 9s0 3.508-.537 4.362a3.5 3.5 0 0 1-1.1 1.101C19.507 15 18.338 15 16 15H8c-2.339 0-3.508 0-4.362-.537a3.5 3.5 0 0 1-1.102-1.1C2 12.507 2 11.338 2 9s0-3.508.536-4.362a3.5 3.5 0 0 1 1.102-1.102C4.492 3 5.66 3 8 3zm-9 9h10m1-5h.009M6.8 18s.8 1.875-.8 3m11.2-3s-.8 1.875.8 3m-6-3v3" color="#fff"></path>
                                         </svg>
                                 <h3 class="amenties-heading">Pet Friendly</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-patio"></i>
+                                <h3>Patio Garden</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control04" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-parking"></i>
+                                <h3>Private Parking</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05" aria-describedby="slick-slide-control05" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-disable"></i>
+                                <h3>Accessible</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06" aria-describedby="slick-slide-control06" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-dog"></i>
+                                <h3>Per Friendly</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07" aria-describedby="slick-slide-control07" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-patio"></i>
+                                <h3>Patio Garden</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08" aria-describedby="slick-slide-control08" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-parking"></i>
+                                <h3>Private Parking</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09" aria-describedby="slick-slide-control09" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                <i class="icon-hotel-disable"></i>
+                                <h3>Accessible</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#2a7a1f" d="M12 21q-1.05 0-1.775-.725T9.5 18.5t.725-1.775T12 16t1.775.725t.725 1.775t-.725 1.775T12 21m-5.65-5.65l-2.1-2.15q1.475-1.475 3.463-2.337T12 10t4.288.875t3.462 2.375l-2.1 2.1q-1.1-1.1-2.55-1.725T12 13t-3.1.625t-2.55 1.725M2.1 11.1L0 9q2.3-2.35 5.375-3.675T12 4t6.625 1.325T24 9l-2.1 2.1q-1.925-1.925-4.462-3.012T12 7T6.563 8.088T2.1 11.1"></path></svg>
+                                <h3 class="amenties-heading">Private Parking</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 448 512">
+                                            <path fill="#2a7a1f" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48M240 320h-48v48c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h96c52.9 0 96 43.1 96 96s-43.1 96-96 96m0-128h-48v64h48c17.6 0 32-14.4 32-32s-14.4-32-32-32"></path>
+                                        </svg>
+                                <h3 class="amenties-heading">Accessible</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
+                            <div class="box_facilities no-border" data-cue="slideInUp">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                                            <path fill="#2a7a1f" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 3c2.339 0 3.508 0 4.362.536a3.5 3.5 0 0 1 1.102 1.102C22 5.492 22 6.66 22 9s0 3.508-.537 4.362a3.5 3.5 0 0 1-1.1 1.101C19.507 15 18.338 15 16 15H8c-2.339 0-3.508 0-4.362-.537a3.5 3.5 0 0 1-1.102-1.1C2 12.507 2 11.338 2 9s0-3.508.536-4.362a3.5 3.5 0 0 1 1.102-1.102C4.492 3 5.66 3 8 3zm-9 9h10m1-5h.009M6.8 18s.8 1.875-.8 3m11.2-3s-.8 1.875.8 3m-6-3v3" color="#fff"></path>
+                                        </svg>
+                                <h3 class="amenties-heading">Pet Friendly</h3>
+                            </div>
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-patio"></i>
                                 <h3>Patio Garden</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-parking"></i>
                                 <h3>Private Parking</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-disable"></i>
                                 <h3>Accessible</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="16" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-dog"></i>
                                 <h3>Per Friendly</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="17" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-patio"></i>
                                 <h3>Patio Garden</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="18" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-parking"></i>
                                 <h3>Private Parking</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        </div><div class="col-lg-3 col-md-6 slick-slide slick-cloned" data-slick-index="19" id="" aria-hidden="true" tabindex="-1" style="width: 507px;">
                             <div class="box_facilities no-border" data-cue="slideInUp">
                                 <i class="icon-hotel-disable"></i>
                                 <h3>Accessible</h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- -----------------------------------------------------------------------/rithish input ends-----------------------------------------------------------------------/ -->
-
-            <!-- /Row -->
-        </div>
-        </div>
-        
-
-
-
-        <!-- /container-->
-
-        <div class="marquee">
-            <div class="track">
-                <div class="content">&nbsp;● Indoor/Outdoor Games  
-                ● DIY Workshops  
-                ● Bonfire  
-                ● Movie Night  
-                ● DJ Night  
-                ● Barbecue Night  
-                ● Open Air Theatre  
-                ● Open Mic / Karaoke  
-                ● Auroville Tour
-                ● Walking Tours  
-                ● Canyon Walk  
-                ● Night Walk  
-                ● Forest Tour  
-                ● Temple Tour  
-                ● Bird Watching  
-                ● Sunrise Sightseeing  
-                ● Mangrove Safari  
-                ● Traditional Events  
-                ● Recreational Events
-                ● Inner Events  
-                ● Exclusive Events  
-                ● and more social events</div>
-            </div>
-        </div>
-        <!-- /marquee-->
-
-        <!-- <div class="bg_white">
-            <div class="pinned-image pinned-image--medium">
-                <div class="pinned-image__container">
-                    <img src="img/parallax_bg.jpg" alt="">
-                    <div class="pinned-image__container-overlay"></div>
-                </div>
-                <div class="pinned_over_content">
-                    <div class="title white">
-                        <small data-cue="slideInUp" data-delay="200">Luxury Hotel Experience</small>
-                        <h2 data-cue="slideInUp" data-delay="300">Enjoy in a very<br> Immersive Relax</h2>
-                    </div>
+                        </div></div></div>
                 </div>
             </div>
-        </div> -->
+        </div>
+    </div>
+</section>-->
+
+
+
+
         <!-- /bg_white-->
 
-
+        
         <div class="container margin_120" id="gallery">
             <div class="row">
                 <div class="title col-12 text-center mb-5">
@@ -499,16 +576,9 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <!-- <a target="_blank" data-fslightbox="gallery_1" data-type="image" href="/gallery.html" class="btn_1 outline">
-                    FullScreen Gallery
-                </a> -->
                 <a target="_blank" href="/gallery.html" class="btn_1 outline">
                     FullScreen Gallery
                 </a>
-                <!-- <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/2.jpg"></a>
-                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/3.jpg"></a>
-                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/4.jpg"></a>
-                <a data-fslightbox="gallery_1" data-type="image" href="img/gallery/5.jpg"></a> -->
             </div>
         </div>
 
@@ -519,17 +589,49 @@
         <!-- /container-->
         </div>
         <!-- /bg_white -->
+         
+        <div class="bg_white">
+            <div class="pinned-image pinned-image--medium">
+                <div class="pinned-image__container">
+                    <img src="/media/1200x800/hut1.svg" alt="">
+                    <div class="pinned-image__container-overlay"></div>
+                </div>
+                <div class="pinned_over_content">
+                    <div class="title white">
+                        <small data-cue="slideInUp" data-delay="200">The Real Auroville Experience</small>
+                        <h2 data-cue="slideInUp" data-delay="300">Enjoy a very<br> Happening and Authentic Experience</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-         <section id="rooms">
+        <section id="rooms">
             <h4 class="heading">Check us in</h4>
-            <div class="container">
-                <img src="media/booking/booking.com.svg" alt="" class="img-fluid margin" a href="https://www.booking.com/hotel/in/the-last-stop-backpackers-hostel.en-gb.html" target="_blank">
-                <img src="media/booking/agoda.svg" alt="" class="img-fluid" a href="https://www.agoda.com/en-in/the-last-stop-backpackers-hostel/hotel/pondicherry-in.html" target="_blank">
-                <img src="media/booking/emt.svg" alt="" class="img-fluid" href="https://www.easemytrip.com/hotels/the-last-stop-backpackers-hostel-4410778/" target="_blank">
-                <img src="media/booking/hostelworld.svg" alt="" class="img-fluid" a href="https://www.hostelworld.com/hostels/p/326115/the-last-stop-backpackers-hostel/" target="_blank"> 
-                <img src="media/booking/trivago.svg" alt="" class="img-fluid" a href="https://www.trivago.in/en-IN/oar/the-last-stop-backpackers-hostel-puducherry?search=100-36501930" target="_blank">
-                <img src="media/booking/priceline.svg" alt="" class="img-fluid" a href="https://www.priceline.com/hotel/the-last-stop-backpackers-hostel-pondicherry" target="_blank">
-                <!-- <img src="media/booking/bluepillow.svg" alt=""> -->
+            <div class="container booking-rooms">
+                <a href="https://www.booking.com/hotel/in/the-last-stop-backpackers-hostel.en-gb.html"
+                    target="_blank"><img src="media/booking/booking.com.svg" alt="" class="img-fluid margin" a
+                        href="https://www.booking.com/hotel/in/the-last-stop-backpackers-hostel.en-gb.html"
+                        target="_blank"></a>
+                <a href="https://www.agoda.com/en-in/the-last-stop-backpackers-hostel/hotel/pondicherry-in.html"
+                    target="_blank"><img src="media/booking/agoda.svg" alt="" class="img-fluid"
+                        href="https://www.agoda.com/en-in/the-last-stop-backpackers-hostel/hotel/pondicherry-in.html"
+                        target="_blank"></a>
+                <a href="https://www.easemytrip.com/hotels/the-last-stop-backpackers-hostel-4410778/" target="_blank">
+                    <img src="media/booking/emt.svg" alt="" class="img-fluid"
+                        href="https://www.easemytrip.com/hotels/the-last-stop-backpackers-hostel-4410778/"
+                        target="_blank"></a>
+                <a href="https://www.hostelworld.com/hostels/p/326115/the-last-stop-backpackers-hostel/"
+                    target="_blank"> <img src="media/booking/hostelworld.svg" alt="" class="img-fluid"
+                        href="https://www.hostelworld.com/hostels/p/326115/the-last-stop-backpackers-hostel/"
+                        target="_blank"> </a>
+                <a href="https://www.trivago.in/en-IN/oar/the-last-stop-backpackers-hostel-puducherry?search=100-36501930"
+                    target="_blank"><img src="media/booking/trivago.svg" alt="" class="img-fluid"
+                        href="https://www.trivago.in/en-IN/oar/the-last-stop-backpackers-hostel-puducherry?search=100-36501930"
+                        target="_blank"></a>
+                <a href="https://www.priceline.com/hotel/the-last-stop-backpackers-hostel-pondicherry" target="_blank">
+                    <img src="media/booking/priceline.svg" alt="" class="img-fluid"
+                        href="https://www.priceline.com/hotel/the-last-stop-backpackers-hostel-pondicherry"
+                        target="_blank"></a>
             </div>
         </section>
 
@@ -543,16 +645,20 @@
                             <small>EXPERIENCE A COMFY AND CRAZY STAY</small>
                             <h2>Address</h2>
                         </div>
-                        <p>No: 20, Auroville Road, Kuilapalayam, <br> Bommayapalayam, (Near Ganapathy Pottery), TN 605101</p>
+                        <p>No: 20, Auroville Road, Kuilapalayam, <br> Bommayapalayam, (Near Ganapathy Pottery), TN
+                            605101</p>
                         <div class="phone_element no_borders"><a href="tel://8678991919"><i
                                     class="bi bi-telephone"></i><span><em>Bookings</em>+91 8678991919</span></a></div>
                         <div class="phone_element no_borders"><a href="mailto:thelaststopbackpackershostel@gmail.com"><i
-                                    class="bi bi-envelope"></i><span><em>Questions</em>thelaststopbackpackershostel@gmail.com</span></a></div>
+                                    class="bi bi-envelope"></i><span><em>Questions</em>thelaststopbackpackershostel@gmail.com</span></a>
+                        </div>
                         <div class="social mt-1">
                             <ul>
-                                <li><a href="https://www.instagram.com/thelaststopbackpackershostel/"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/thelaststopbackpackershostel/"><i
+                                            class="bi bi-instagram"></i></a></li>
                                 <li><a href="tel://8678991919"><i class="bi bi-whatsapp"></i></a></li>
-                                <li><a href="#https://www.facebook.com/61555702082946/about/"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#https://www.facebook.com/61555702082946/about/"><i
+                                            class="bi bi-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -765,6 +871,13 @@
     <!-- Add Slick Slider JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
     <!-- Initialize Slick Slider -->
     <script>
         $(document).ready(function () {
@@ -806,9 +919,29 @@
         });
     </script>
 
-
-
-
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                smartSpeed: 1000,
+                autoplay: false,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 

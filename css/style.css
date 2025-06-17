@@ -180,6 +180,7 @@ a.box_cat_rooms .info {
     0% {
         top: 0
     }
+
     100% {
         top: -100%
     }
@@ -189,6 +190,7 @@ a.box_cat_rooms .info {
     0% {
         top: 0
     }
+
     100% {
         top: -100%
     }
@@ -198,6 +200,7 @@ a.box_cat_rooms .info {
     0% {
         top: 0
     }
+
     100% {
         top: -100%
     }
@@ -207,6 +210,7 @@ a.box_cat_rooms .info {
     0% {
         top: 0
     }
+
     100% {
         top: -100%
     }
@@ -263,6 +267,7 @@ a.box_cat_rooms .info {
         -o-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -280,6 +285,7 @@ a.box_cat_rooms .info {
         -o-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -297,6 +303,7 @@ a.box_cat_rooms .info {
         -o-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -314,6 +321,7 @@ a.box_cat_rooms .info {
         -o-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -750,11 +758,13 @@ header.fixed_header.sticky nav ul li a.animated_link:before {
 }
 
 @keyframes burger {
+
     0%,
     100% {
         transform-origin: 0 100%;
         transform: scale(1, 1)
     }
+
     50% {
         transform-origin: 0 100%;
         transform: scale(0, 1)
@@ -875,16 +885,20 @@ header.fixed_header.sticky nav ul li a.animated_link:before {
         -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1)
     }
+
     .main-menu #mainNav {
         padding: 30px
     }
+
     .main-menu #mainNav ul {
         text-align: left
     }
+
     .main-menu #mainNav ul li {
         display: block;
         margin: 0
     }
+
     .main-menu #mainNav ul li a {
         display: block;
         color: #333 !important;
@@ -892,16 +906,20 @@ header.fixed_header.sticky nav ul li a.animated_link:before {
         padding: .35rem .65rem !important;
         margin: 0 0 10px
     }
+
     .main-menu #mainNav ul li a:before {
         display: none !important
     }
+
     .main-menu #mainNav ul li a.active,
     .main-menu #mainNav ul li a:hover {
         color: #1C7A16 !important
     }
+
     .main-menu #mainNav ul li a.btn_1 {
         background-color: transparent
     }
+
     .main-menu.show {
         transform: translateX(0)
     }
@@ -957,6 +975,7 @@ img.jarallax-img.kenburns {
         transform: scale3d(1.4, 1.4, 1.4) translate3d(-5%, -2%, 0);
         transition: transform 7s linear 1s
     }
+
     100% {
         transform: scale3d(1.25, 1.25, 1.25) translate3d(0, 0, 0);
         transition: transform 7s linear 1s
@@ -1008,9 +1027,11 @@ img.jarallax-img.kenburns-2 {
     header {
         padding: 15px 0
     }
+
     .hero.full-height {
         height: 87vh
     }
+
     .hero .wrapper h1,
     .hero .wrapper h3 {
         font-size: 2.25rem
@@ -1420,21 +1441,25 @@ a.box_cat_rooms:hover .background-image {
         transition-timing-function: ease-in;
         opacity: 0
     }
+
     40% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
         transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
         -webkit-transition-timing-function: ease-in;
         transition-timing-function: ease-in
     }
+
     60% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
         transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
         opacity: 1
     }
+
     80% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
         transform: perspective(400px) rotate3d(1, 0, 0, -5deg)
     }
+
     100% {
         -webkit-transform: perspective(400px);
         transform: perspective(400px)
@@ -1449,21 +1474,25 @@ a.box_cat_rooms:hover .background-image {
         transition-timing-function: ease-in;
         opacity: 0
     }
+
     40% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
         transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
         -webkit-transition-timing-function: ease-in;
         transition-timing-function: ease-in
     }
+
     60% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
         transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
         opacity: 1
     }
+
     80% {
         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
         transform: perspective(400px) rotate3d(1, 0, 0, -5deg)
     }
+
     100% {
         -webkit-transform: perspective(400px);
         transform: perspective(400px)
@@ -1692,9 +1721,11 @@ a.box_cat_rooms:hover .background-image {
     .box_facilities {
         border-width: 0
     }
+
     .row_list_version_2 .box_item_info {
         margin: -150px 30px 0
     }
+
     .row_list_version_2.inverted .box_item_info {
         margin: -50px 30px 0
     }
@@ -1861,7 +1892,7 @@ a.box_cat_rooms:hover .background-image {
     max-width: 100%;
     height: 100px;
     overflow: hidden;
-    font-size: 120px;
+    font-size: 85px;
     font-weight: 700;
     margin-top: -60px
 }
@@ -1882,6 +1913,7 @@ a.box_cat_rooms:hover .background-image {
     from {
         transform: translateX(0)
     }
+
     to {
         transform: translateX(-30%)
     }
@@ -2052,6 +2084,7 @@ img.rounded-img {
     .daterangepicker .drp-calendar {
         max-width: 100% !important
     }
+
     .daterangepicker .drp-calendar.left,
     .daterangepicker .drp-calendar.right {
         clear: none !important;
@@ -2115,6 +2148,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 50px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -2124,6 +2158,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 50px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -2133,6 +2168,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 50px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -2142,6 +2178,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 240px
     }
+
     100% {
         stroke-dashoffset: 480px
     }
@@ -2151,6 +2188,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 240px
     }
+
     100% {
         stroke-dashoffset: 480px
     }
@@ -2160,6 +2198,7 @@ textarea.form-control {
     0% {
         stroke-dashoffset: 240px
     }
+
     100% {
         stroke-dashoffset: 480px
     }
@@ -2220,50 +2259,63 @@ textarea.form-control {
     header nav ul li:first-child {
         display: none
     }
+
     .hamburger_2 {
         top: 5px
     }
+
     .menu_v1 .closebt,
     .menu_v1 .hamburger_2,
     .menu_v1 .layer {
         display: block
     }
+
     .menu_v1 .logo_panel {
         display: flex
     }
+
     .hero.full-height,
     .hero.medium-height,
     .hero.small-height {
         min-height: 600px
     }
+
     .parallax_section_1 {
         min-height: 650px
     }
+
     a.box_cat_rooms {
         height: 400px
     }
+
     .parallax_wrapper {
         padding-left: 25%
     }
+
     .parallax_wrapper .img_over {
         left: 0
     }
+
     .parallax_wrapper.inverted {
         padding-left: inherit;
         padding-right: 25%
     }
+
     .parallax_wrapper.inverted .img_over {
         left: inherit;
         right: 0
     }
+
     .margin_80 {
         padding-bottom: 60px;
         padding-top: 60px
     }
+
     .margin_80_55 {
         padding-top: 60px;
         padding-bottom: 35px
     }
+
     .margin_60_0,
     .margin_80_0 {
         padding-top: 60px
@@ -2271,14 +2323,17 @@ textarea.form-control {
 }
 
 @media (max-width:575px) {
+
     .hero .wrapper h1,
     .hero .wrapper h3 {
         font-size: 2rem
     }
+
     .margin_60_35 {
         padding-top: 30px;
         padding-bottom: 5px
     }
+
     .margin_60_0,
     .margin_80_0 {
         padding-top: 45px
@@ -2301,53 +2356,61 @@ textarea.form-control {
     padding-top: 90px
 }
 
-#logo-header img{
-max-width: 50%;
+#logo-header img {
+    max-width: 50%;
 }
 
 
 
 /* Rooms style starts */
-.rooms-heading h2{
+.rooms-heading h2 {
     text-align: center;
     margin: 5% 0%;
 }
-.rooms{
+
+.rooms {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center
 }
-.card{
-    height: auto;
+
+.card {
+    height: 54lvh;
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     overflow: hidden;
     border-radius: 10px;
     padding: 20px;
 }
+
 .card img {
     border-radius: 15px;
 }
-.card-dorm-icon{
+
+.card-dorm-icon {
     margin: 10px 0px;
     display: flex;
     justify-content: space-between;
 }
-.card-para-weight{
+
+.card-para-weight {
     font-weight: 800;
     font-size: 18px;
     color: #333;
 }
-.dorm{
+
+.dorm {
     padding-top: 10px;
 }
-.dorm span{
+
+.dorm span {
     font-weight: 500;
     font-size: 18px;
     color: #333;
 }
-.enquiry{
+
+.enquiry {
     width: fit-content;
     align-self: center;
     margin-top: 10px;
@@ -2367,12 +2430,15 @@ max-width: 50%;
 }
 
 .rooms-wrapper::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
+    display: none;
+    /* Hide scrollbar */
 }
 
 .rooms-wrapper {
-    -ms-overflow-style: none;  /* IE/Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 
@@ -2383,99 +2449,160 @@ max-width: 50%;
 /* amenties starts */
 
 .box_facilities {
-  text-align: center;
+    text-align: center;
 }
 
 .box_facilities i {
-  font-size: 48px;
-  color: #2a7a1f; /* your green */
-  margin-bottom: 10px;
+    font-size: 48px;
+    color: #2a7a1f;
+    /* your green */
+    margin-bottom: 10px;
 }
-.amenities{
-    height: 50vh;
+
+.amenities {
+    height: 60dvh;
 }
+
 /* amenties Ends */
 
-.amenties-heading{
+.amenties-heading {
     margin-top: 10px;
 }
-.gal-image{
+
+.gal-image {
     width: -webkit-fill-available;
     height: 50vh;
     object-fit: cover;
+    filter: brightness(0.5);
 }
 
 /* gallery image starts */
 
-.gallery{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	
-	padding: 100px 0;
+.gallery {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+
+    padding: 100px 0;
 }
-.gallery .gallery-filter{
-	padding: 0 15px;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 20px;
+
+.gallery .gallery-filter {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.gallery .gallery-filter .filter-item{
-	color: #333;
-	font-size: 17px;
-	text-transform: uppercase;
-	display: inline-block;
+
+.gallery .gallery-filter .filter-item {
+    color: #333;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
     font-weight: 600;
-	margin:0 10px;
-	cursor: pointer;
-	border-bottom: 2px solid transparent;
-	line-height: 1.2;
-	transition: all 0.3s ease;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    line-height: 1.2;
+    transition: all 0.3s ease;
 }
-.gallery .gallery-filter .filter-item.active{
-	color: #2a7a1f;
-	border-color : #2a7a1f;
+
+.gallery .gallery-filter .filter-item.active {
+    color: #2a7a1f;
+    border-color: #2a7a1f;
 }
-.gallery .gallery-item{
-	width: calc(100% / 3);
-	padding: 15px;
+
+.gallery .gallery-item {
+    width: calc(100% / 3);
+    padding: 15px;
 }
-.gallery .gallery-item-inner img{
-	width: 100%;
+
+.gallery .gallery-item-inner img {
+    width: 100%;
 }
-.gallery .gallery-item.show{
-	animation: fadeIn 0.5s ease;
+
+.gallery .gallery-item.show {
+    animation: fadeIn 0.5s ease;
 }
-@keyframes fadeIn{
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
-.gallery .gallery-item.hide{
-	display: none;
+
+.gallery .gallery-item.hide {
+    display: none;
 }
 
 /*responsive*/
-@media(max-width: 991px){
-	.gallery .gallery-item{
-		width: 50%;
-	}
+@media(max-width: 991px) {
+    .gallery .gallery-item {
+        width: 50%;
+    }
 }
-@media(max-width: 767px){
-    .gallery .gallery-item{
-		width: 100%;
-	}	
-	.gallery .gallery-filter .filter-item{
-		margin-bottom: 10px;
-	}
+
+@media(max-width: 767px) {
+    .gallery .gallery-item {
+        width: 100%;
+    }
+
+    .gallery .gallery-filter .filter-item {
+        margin-bottom: 10px;
+    }
 }
 
 /* gallery image Ends */
 
-.heading{
+.heading {
     text-align: center;
     margin: 3% 0%;
 }
+
+.booking-rooms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking-rooms img {
+    max-width: 90%;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
+
+.owl-carousel .item {
+    text-align: center;
+}
+
+.owl-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.owl-carousel .item {
+    align-content: center;
+    height: 60vh;
+}
+
+.card-carousel {
+    height: 70lvh;
+}
+
+.card-price {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 5px;
+}
+.owl-item {
+    width: 350px !important;
+}
+
