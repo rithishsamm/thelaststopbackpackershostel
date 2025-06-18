@@ -2686,8 +2686,9 @@ body {
 }
 
 .slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+	/* background: white; */
+    background-color: rgb(250, 248, 245, 1);
+	/* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
 	height: 50lvh;
 	margin: auto;
 	overflow: hidden;
@@ -2702,7 +2703,7 @@ body {
 	width: 200px;
 	height: 200px;
 	z-index: 2;
-	background: linear-gradient(to right, rgba(255, 255, 255, ) 0%, rgba(255, 255, 255, 0) 100%);
+	/* background: linear-gradient(to right, rgba(255, 255, 255, ) 0%, rgba(255, 255, 255, 0) 100%); */
 }
 
 .slider::after {
@@ -2727,7 +2728,12 @@ body {
 	height: 100px;
 	width: 250px;
     text-align: center;
+    background-color: rgb(250, 248, 245, 1);
 }
 .slide h6{
     padding-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
