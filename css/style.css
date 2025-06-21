@@ -2376,7 +2376,7 @@ textarea.form-control {
 }
 
 .card {
-    height: 54lvh;
+    height: webkit-fill-available;
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     overflow: hidden;
@@ -2588,7 +2588,7 @@ textarea.form-control {
 
 .owl-carousel .item {
     align-content: center;
-    height: 60vh;
+    height: 70lvh;
 }
 
 .card-carousel {
@@ -2736,4 +2736,43 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.events-heading{
+    margin-top: 5%;
+}
+.about-section-heading{
+    margin-top: 6%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .hero .wrapper h3{
+        font-size: 17px;
+    }
+    .slide-animated one{
+        font-size: 10px;
+    }
+    .title h2{
+        font-size: 22px;
+    }
+    .lead{
+        font-size: 17px;
+    }
+    .owl-stage{
+        display: flex;
+    }
+    .phone_element a span{
+        font-size: 14px;
+    }
+    .card{
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+    }
+    .card-carousel {
+    height: 75lvh;
+}
+}
+#rooms{
+    margin-top: 10%;
 }
