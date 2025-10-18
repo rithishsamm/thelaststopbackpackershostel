@@ -59,46 +59,150 @@
     </div>
     <!-- /Page Preload -->
 
-    <header class="fixed_header menu_v1">
-        <div class="layer"></div>
-        <!-- Opacity Mask -->
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col-5" id="logo-header">
-                    <a href="index.html" class="logo_normal"><img src="img/main-header-logo-white.svg" width="300"
-                            height="40" alt="" class="img-fluid"></a>
-                    <a href="index.html" class="logo_sticky"><img src="img/main-header-logo-black.svg" width="300"
-                            height="40" alt="" class="img-fluid"></a>
+
+
+    <header class="fixed_header menu_v1"
+        style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; transition: all 0.3s ease; background: transparent; box-shadow: none;">
+        <div class="container" style="padding: 0 15px;">
+            <div class="d-flex align-items-center justify-content-between" style="height: fit-content;">
+                <div id="logo-header" style="display: flex; align-items: center; height: 100%;">
+                    <!-- Normal logo -->
+                    <a href="index.html" class="logo_normal">
+                        <img src="media/mediakit/LSBP-logo-2.0-transparency.png" alt="Uyir Logo"
+                            style="max-height: fit-content; width: auto; display: block; height: auto;">
+                    </a>
+                    <!-- Sticky logo (hidden by default) -->
+                    <a href="index.html" class="logo_sticky" style="display: none;">
+                        <img src="media/mediakit/LSBP-logo-2.0.png" alt="Uyir Sticky Logo"
+                            style="max-height: fit-content; width: auto; display: block; height: auto;">
+                    </a>
                 </div>
-                <div class="col-md-9 col-7">
-                    <div class="main-menu">
-                        <a href="#" class="closebt open_close_menu"><i class="bi bi-x"></i></a>
-                        <div class="logo_panel"><img src="img/logo_sticky.svg" width="180" height="34" alt=""></div>
-                        <nav id="mainNav">
-                            <ul>
-                                <li><a href="#" class="js-scroll-trigger animated_link">Home</a></li>
-                                <li><a href="#about" class="js-scroll-trigger animated_link">About</a></li>
-                                <li><a href="#rooms" class="js-scroll-trigger animated_link">Rooms</a></li>
-                                <li><a href="#amenities" class="js-scroll-trigger animated_link">Amenities</a></li>
-                                <li><a href="gallery.html" target="_blank"
-                                        class="js-scroll-trigger animated_link">Gallery</a></li>
-                                <li><a href="#contact" class="js-scroll-trigger btn_1">Contact us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="hamburger_2 open_close_menu float-end">
-                        <div class="hamburger__box">
-                            <div class="hamburger__inner"></div>
+
+                <!-- Desktop Nav -->
+                <nav id="mainNav" class="d-none d-md-block">
+                    <ul style="display: flex; list-style: none; margin: 0; padding: 0; gap: 24px; align-items: center;">
+                        <li><a href="#" class="js-scroll-trigger animated_link">Home</a></li>
+                        <li><a href="#about" class="js-scroll-trigger animated_link">About</a></li>
+                        <li><a href="#rooms" class="js-scroll-trigger animated_link">Rooms</a></li>
+                        <li><a href="#amenities" class="js-scroll-trigger animated_link">Amenities</a></li>
+                        <li><a href="gallery.html" target="_blank" class="js-scroll-trigger animated_link">Gallery</a>
+                        </li>
+                        <li><a href="#contact" class="js-scroll-trigger btn_1">Contact us</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Hamburger -->
+                <button class="hamburger_2 open_close_menu d-md-none"
+                    style="background: none; border: none; cursor: pointer; padding: 5px;" aria-label="Toggle menu">
+                    <div class="hamburger__box" style="width: 24px; height: 18px; position: relative;">
+                        <div class="hamburger__inner"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: #fff; box-shadow: 0 6px 0 #fff, 0 12px 0 #fff;">
                         </div>
+                    </div>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <main>
+
+
+        <div style="width: 100%; display: flex; justify-content: center; padding: 0; margin: 0;">
+            <div style="position: relative; width: 100%; max-width: 100%;">
+                <img src="/media/mediakit/logo-sharp+1.png" alt="Banner Image"
+                    style="width: 100%; height: auto; display: block;">
+                <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        "></div>
+            </div>
+        </div>
+        <!-- 
+    <div style="width: 100%; display: flex; justify-content: center; padding: 20px; box-sizing: border-box;">
+    <div style="
+        position: relative;
+        max-width: 100%;
+        width: fit-content;
+        border-radius: 0px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    ">
+        <img 
+        src="/media/mediakit/logo-sharp+1.png" 
+        alt="Banner Image"
+        style="
+            display: block;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+            border-radius: 0px;
+        "
+        >
+        <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 0px;
+        "></div>
+    </div>
+    </div> -->
+        <!-- <div style="width: 100%;">
+    <div style="
+        width: 100%;
+        height: auto;
+        max-height: 80vh;
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+    ">
+        <img 
+        src="/media/mediakit/logo-sharp+1.png" 
+        alt="Banner Image"
+        style="
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 15px;
+        "
+        >
+        <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        pointer-events: none;
+        "></div>
+    </div>
+    </div> -->
+
+        <!-- <div class="bg_white">
+            <div class="pinned-image pinned-image--medium">
+                <div class="pinned-image__container">
+                    <img src="/media/mediakit/logo-sharp+1.png" alt="">
+                    <div class="pinned-image__container-overlay"></div>
+                </div>
+                <div class="pinned_over_content">
+                    <div class="title white">
+                        <small data-cue="slideInUp" data-delay="200">The Realest Experience right near Auroville</small>
+                        <h2 data-cue="slideInUp" data-delay="300">Enjoy a very<br> Happening and Authentic Stay</h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- container -->
-    </header>
-    <!-- End Header -->
-
-    <main>
+        </div> -->
 
         <div class="hero full-height jarallax" data-jarallax-video="webm:./video/laststopbackpackershostelpromo.webm"
             data-speed="0.2">
@@ -158,11 +262,11 @@
 
 
                 <!-- card carousel strats -->
-                 
-                <section class="card-carousel rooms-section-heading" >
-                   <h2 class="heading" id="rooms">Rooms</h2>
-                    <div class="owl-carousel">
 
+                <section class="card-carousel rooms-section-heading">
+                    <h2 class="heading" id="rooms">Rooms</h2>
+                    <div class="owl-carousel">
+                        <!-- 
                         <div class="item">
                             <div class="card">
                                 <img src="/media/1200x800/dorm1.webp" alt="Room 1">
@@ -191,11 +295,11 @@
                                     <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="item">
                             <div class="card">
-                                <img src="/media/1200x800/suite2.webp" alt="Room 1">
+                                <img src="media/rooms/Twin Bed Room.png" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
                                     <span>Room</span>
                                     <div style="display: flex; align-items: center; column-gap: 5px;">
@@ -208,22 +312,23 @@
                                     </div>
                                 </div>
                                 <div class="card-dorm-icon">
-                                    <span class="card-para-weight">Private AC Room</span>
+                                    <span class="card-para-weight">Twin Bed Room</span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
                                     </div>
                                 </div>
                                 <div class="card-price">
-                                    <h3>₹1499</h3>
+                                    <h3>₹1500</h3>
                                     <p> / per night per person </p>
                                 </div>
                                 <div class="container">
-                                    <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
+                                    <a href="https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/?checkin=2025-10-15&checkout=2025-10-16&noOfGuests=2&noOfRooms=1"
+                                        target="_blank" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="card">
                                 <img src="/media/1200x800/hut3.webp" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
@@ -237,7 +342,7 @@
                                         <span>5</span>
                                     </div>
                                 </div>
-                                <div class="card-dorm-icon">
+                               <div class="card-dorm-icon">
                                     <span class="card-para-weight">Private Keeth Hut </span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
@@ -249,13 +354,13 @@
                                 </div>
                                 <div class="container">
                                     <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
-                                </div>
+                                </div> 
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="item">
                             <div class="card">
-                                <img src="/media/1200x800/keeth1.webp" alt="Room 1">
+                                <img src="media/rooms/Queen Bed Room.png" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
                                     <span>Hut</span>
                                     <div style="display: flex; align-items: center; column-gap: 5px;">
@@ -268,24 +373,25 @@
                                     </div>
                                 </div>
                                 <div class="card-dorm-icon">
-                                    <span class="card-para-weight">Private Keeth Dorm </span>
+                                    <span class="card-para-weight">Queen Bed Room</span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
                                     </div>
                                 </div>
                                 <div class="card-price">
-                                    <h3>₹799</h3>
+                                    <h3>₹2500</h3>
                                     <p> / per night per person </p>
                                 </div>
                                 <div class="container">
-                                    <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
+                                    <a href="https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/?checkin=2025-10-15&checkout=2025-10-16&noOfGuests=2&noOfRooms=1"
+                                        target="_blank" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="card">
-                                <img src="/media/1200x800/dorm1.webp" alt="Room 1">
+                                <img src="media/rooms/Mixed Dorm 6 Beds.png" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
                                     <span>Dorm</span>
                                     <div style="display: flex; align-items: center; column-gap: 5px;">
@@ -298,7 +404,7 @@
                                     </div>
                                 </div>
                                 <div class="card-dorm-icon">
-                                    <span class="card-para-weight">Mixed AC Dorm </span>
+                                    <span class="card-para-weight">Mixed Dorm 6 Beds</span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
                                     </div>
@@ -308,14 +414,15 @@
                                     <p> / per night per person </p>
                                 </div>
                                 <div class="container">
-                                    <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
+                                    <a href="https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/?checkin=2025-10-15&checkout=2025-10-16&noOfGuests=2&noOfRooms=1"
+                                        target="_blank" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="card">
-                                <img src="/media/1200x800/suite1.webp" alt="Room 1">
+                                <img src="media/rooms/king Bed Room.png" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
                                     <span>Dorm</span>
                                     <div style="display: flex; align-items: center; column-gap: 5px;">
@@ -328,24 +435,25 @@
                                     </div>
                                 </div>
                                 <div class="card-dorm-icon">
-                                    <span class="card-para-weight">Non-AC Private Dorm</span>
+                                    <span class="card-para-weight">king Bed Room</span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
                                     </div>
                                 </div>
                                 <div class="card-price">
-                                    <h3>₹299</h3>
+                                    <h3>₹2500</h3>
                                     <p> / per night per person </p>
                                 </div>
                                 <div class="container">
-                                    <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
+                                    <a href="https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/?checkin=2025-10-15&checkout=2025-10-16&noOfGuests=2&noOfRooms=1"
+                                        target="_blank" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="card">
-                                <img src="/media/1200x800/dorm1-4.webp" alt="Room 1">
+                                <img src="media/rooms/Standard Room.png" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
                                     <span>Room</span>
                                     <div style="display: flex; align-items: center; column-gap: 5px;">
@@ -358,22 +466,23 @@
                                     </div>
                                 </div>
                                 <div class="card-dorm-icon">
-                                    <span class="card-para-weight">Non-AC Private Room </span>
+                                    <span class="card-para-weight">Standard Room</span>
                                     <div>
                                         <span class="card-para-weight">M/F</span>
                                     </div>
                                 </div>
                                 <div class="card-price">
-                                    <h3>₹1199</h3>
+                                    <h3>₹2500</h3>
                                     <p> / per night per person </p>
                                 </div>
                                 <div class="container">
-                                    <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
+                                    <a href="https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/?checkin=2025-10-15&checkout=2025-10-16&noOfGuests=2&noOfRooms=1"
+                                        target="_blank" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="card">
                                 <img src="/media/1200x800/suite1.webp" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
@@ -401,9 +510,9 @@
                                     <a href="#booking_section" class="btn_1 enquiry">Book Now</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="card">
                                 <img src="/media/1200x800/suite1.webp" alt="Room 1">
                                 <div class="card-dorm-icon dorm">
@@ -431,7 +540,7 @@
                                     <a href="tel:+918678991919" class="btn_1 enquiry">Enquire</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </section>
 
                 <br>
@@ -448,7 +557,7 @@
         <!-- /card carousel ends-->
 
 
-        <div class="marquee" >
+        <div class="marquee">
             <div class="track">
                 <div class="content">&nbsp;● Indoor/Outdoor Games
                     ● DIY Workshops
@@ -630,10 +739,10 @@
             </div>
         </div>
 
- 
+
         <br>
 
-       <section class="about-section-heading" id="contact">
+        <section class="about-section-heading" id="contact">
             <h2 class="heading">Check us in</h2>
             <div class="container booking-rooms">
                 <a href="https://www.booking.com/hotel/in/the-last-stop-backpackers-hostel.en-gb.html"
@@ -696,59 +805,38 @@
                                 data-bs-target="#first_tab_pane" type="button" role="tab" aria-controls="first_tab_pane"
                                 aria-selected="true">Check Availability</button>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <button class="nav-link" id="second_tab" data-bs-toggle="tab"
                                 data-bs-target="#second_tab_pane" type="button" role="tab"
                                 aria-controls="second_tab_pane" aria-selected="false">Contact Us</button>
-                        </li>
+                        </li> -->
                     </ul>
-                    <!-- /tabs -->
+
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="first_tab_pane" role="tabpanel"
                             aria-labelledby="first_tab" tabindex="0">
                             <div class="booking_wrapper">
                                 <div id="message-booking"></div>
-                                <form method="post" action="phpmailer/reserve_template_email.php" id="bookingform"
-                                    autocomplete="off">
+                                <form method="post" id="bookingform" autocomplete="off">
                                     <input type="hidden" id="date_booking" name="date_booking">
+
                                     <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="custom_select">
-                                                <select class="wide" name="rooms_booking" id="rooms_booking">
-                                                    <option value="">Select Room</option>
-                                                    <option value="Double Room">Dorm</option>
-                                                    <option value="Deluxe Room">Room</option>
-                                                    <option value="Superior Room">Keeth</option>
-                                                    <option value="Junior Suite">Suite</option>
-                                                </select>
-                                            </div>
+                                        <!-- Check-in and Check-out in same row -->
+                                        <div class="col-lg-6 mb-3">
+                                            <input type="text" id="checkin_booking" name="checkin" class="form-control"
+                                                placeholder="Check-in Date">
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="qty-buttons mb-3 version_2">
-                                                        <input type="button" value="+" class="qtyplus"
-                                                            name="adults_booking">
-                                                        <input type="text" name="adults_booking" id="adults_booking"
-                                                            value="" class="qty form-control" placeholder="Adults">
-                                                        <input type="button" value="-" class="qtyminus"
-                                                            name="adults_booking">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="mb-3 qty-buttons mb-3 version_2">
-                                                        <input type="button" value="+" class="qtyplus"
-                                                            name="childs_booking">
-                                                        <input type="text" name="childs_booking" id="childs_booking"
-                                                            value="" class="qty form-control" placeholder="Childs">
-                                                        <input type="button" value="-" class="qtyminus"
-                                                            name="childs_booking">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="col-lg-6 mb-3">
+                                            <input type="text" id="checkout_booking" name="checkout"
+                                                class="form-control" placeholder="Check-out Date">
                                         </div>
                                     </div>
-                                    <!-- / row -->
+
+                                    <!-- No. of Guests on next line full width -->
+                    
+
+
+                                    <!-- 
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -762,15 +850,16 @@
                                                     class="form-control" placeholder="Email">
                                             </div>
                                         </div>
-                                    </div>
-                                    <!-- / row -->
+                                    </div> -->
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-6 mb-4">
                                             <div class="row align-items-center">
                                                 <div class="col-auto">
-                                                    <label for="verify_booking" class="col-form-label"><strong>Are you
-                                                            human?</strong></label>
+                                                    <label for="verify_booking" class="col-form-label">
+                                                        <strong>Are you human?</strong>
+                                                    </label>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <input type="text" name="verify_booking" id="verify_booking"
@@ -779,17 +868,19 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            <p class="text-end"><input class="btn_1 outline" type="submit"
-                                                    value="Check Now" id="submit-booking"></p>
+                                            <p class="text-end">
+                                                <input class="btn_1 outline" type="submit" value="Check Now"
+                                                    id="submit-booking">
+                                            </p>
                                         </div>
                                     </div>
-                                    <!-- / row -->
                                 </form>
+
                             </div>
                             <!-- / booking_wrapper -->
                         </div>
                         <!-- /tab_booking-->
-                        <div class="tab-pane fade" id="second_tab_pane" role="tabpanel" aria-labelledby="second_tab"
+                        <!-- <div class="tab-pane fade" id="second_tab_pane" role="tabpanel" aria-labelledby="second_tab"
                             tabindex="0">
                             <div class="contacts_wrapper">
                                 <div id="message-contact"></div>
@@ -811,7 +902,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /row -->
+                                
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-floating mb-4">
@@ -828,7 +919,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /row -->
+                                
                                     <div class="form-floating mb-4">
                                         <textarea class="form-control" placeholder="Message" id="message_contact"
                                             name="message_contact"></textarea>
@@ -853,11 +944,11 @@
                                                     value="Submit" id="submit-contact"></p>
                                         </div>
                                     </div>
-                                    <!-- / row -->
+                                    
                                 </form>
                             </div>
-                            <!-- /tab_contacts-->
-                        </div>
+                          /tab_contacts
+                        </div> -->
                         <!-- /contacts_wrapper-->
                     </div>
                     <!-- /tab_content-->
@@ -902,6 +993,68 @@
 
     <!-- Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- contact form script -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const bookingForm = document.getElementById("bookingform");
+
+            bookingForm.addEventListener("submit", function (e) {
+                e.preventDefault(); // prevent PHP submission
+
+                // 🔹 3rd Party Base URL
+                const baseUrl = "https://live.billzify.com/bookbe/SC1CYWNrcGFja2Vycw/";
+
+                // 🔹 Extract dates
+                const dateField = document.getElementById("date_booking");
+                let checkin = "";
+                let checkout = "";
+
+                if (dateField && dateField.value.includes("-")) {
+                    // Example format: "2025-10-07 - 2025-10-08"
+                    const parts = dateField.value.split("-");
+                    checkin = parts[0].trim();
+                    checkout = parts[1] ? parts[1].trim() : "";
+                }
+
+                // 🔹 Get number of adults as total guests
+                const adultsField = document.getElementById("adults_booking");
+                let guests = adultsField && adultsField.value ? adultsField.value : "";
+
+                // 🔹 Build the redirect URL
+                let finalUrl = baseUrl + "?checkin=" + encodeURIComponent(checkin) + "&checkout=" + encodeURIComponent(checkout);
+                if (guests) {
+                    finalUrl += "&noOfGuests=" + encodeURIComponent(guests);
+                }
+
+                // 🔹 Redirect to booking page
+                window.location.href = finalUrl;
+            });
+        });
+    </script>
+
+    <script>
+        const picker = new Litepicker({
+            element: document.getElementById('checkin_booking'),
+            elementEnd: document.getElementById('checkout_booking'),
+            singleMode: false, // Enables date range
+            format: 'YYYY-MM-DD',
+            numberOfMonths: 2,
+            numberOfColumns: 2,
+            autoApply: true,
+            tooltipText: { one: 'night', other: 'nights' },
+            tooltipNumber: (totalDays) => totalDays - 1,
+            setup: (picker) => {
+                picker.on('selected', (date1, date2) => {
+                    document.getElementById('checkin_booking').value = date1 ? date1.format('YYYY-MM-DD') : '';
+                    document.getElementById('checkout_booking').value = date2 ? date2.format('YYYY-MM-DD') : '';
+                });
+            }
+        });
+    </script>
+
 
 
     <!-- Initialize Slick Slider -->
@@ -966,6 +1119,51 @@
                     }
                 }
             });
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const header = document.querySelector('.fixed_header');
+            const logoNormal = document.querySelector('.logo_normal');
+            const logoSticky = document.querySelector('.logo_sticky');
+            const hamburgerInner = document.querySelector('.hamburger__inner');
+
+            const handleScroll = () => {
+                if (window.scrollY > 50) {
+                    // Scrolled down → solid header
+                    header.style.background = 'rgba(255, 255, 255, 0.96)';
+                    header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+                    header.style.backdropFilter = 'blur(6px)';
+
+                    logoNormal.style.display = 'none';
+                    logoSticky.style.display = 'block';
+
+                    // Make hamburger dark on scroll (if on white bg)
+                    if (hamburgerInner) {
+                        hamburgerInner.style.background = '#000';
+                        hamburgerInner.style.boxShadow = '0 6px 0 #000, 0 12px 0 #000';
+                    }
+                } else {
+                    // At top → transparent
+                    header.style.background = 'transparent';
+                    header.style.boxShadow = 'none';
+                    header.style.backdropFilter = 'none';
+
+                    logoNormal.style.display = 'block';
+                    logoSticky.style.display = 'none';
+
+                    // Hamburger stays white on transparent header
+                    if (hamburgerInner) {
+                        hamburgerInner.style.background = '#fff';
+                        hamburgerInner.style.boxShadow = '0 6px 0 #fff, 0 12px 0 #fff';
+                    }
+                }
+            };
+
+            window.addEventListener('scroll', handleScroll);
+            handleScroll(); // Run once on load
         });
     </script>
 

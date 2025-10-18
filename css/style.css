@@ -1909,6 +1909,8 @@ a.box_cat_rooms:hover .background-image {
     line-height: 1.2
 }
 
+
+
 @keyframes marquee {
     from {
         transform: translateX(0)
@@ -1949,6 +1951,45 @@ a.box_cat_rooms:hover .background-image {
     font-size: 2rem
 }
 
+.bg_white {
+  width: 100%;
+}
+
+.pinned-image--medium {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Optional: cap max height on large screens */
+  position: relative;
+}
+
+.pinned-image__container {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pinned-image__container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Optional: if you want it to fill container while keeping aspect ratio */
+  /* object-fit: cover; */
+  /* But for "fully shown", use height: auto and width: 100% */
+}
+
+.pinned-image__container-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px; /* Match container */
+  pointer-events: none; /* So it doesn't block interactions if you add buttons */
+}
+/* 
 .pinned-image {
     display: flex;
     height: 90vh;
@@ -1962,6 +2003,12 @@ a.box_cat_rooms:hover .background-image {
 
 .pinned-image--medium {
     height: 75vh
+} */
+
+@media (max-width: 768px) {
+  .pinned-image--medium {
+    max-height: 60vh;
+  }
 }
 
 .pinned-image--small {
